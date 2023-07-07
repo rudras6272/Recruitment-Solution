@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recruitment Solution App</title>
+  <link rel="stylesheet" type="text/css" href="home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Recruitment Solution</h1>
+    <nav>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="login.html" >Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-box">
+    <div class="hero-content">
+      <h2>Streamline Your Hiring Process</h2>
+      <p>Find the perfect candidates efficiently with our online recruitment solution.</p>
+      <div class="cta-button" onclick="redirectToApp()">Get Started</div>
+    </div>
+  </div>
+    <div class="img-content">
+      <img src="hire2.png" alt="" >
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="one">
+        <h2>Key Features</h2>
+    </div>
+    
+    <div class="feature">
+      <img src="search.svg" alt="Feature 1">
+      <h3>Advanced Candidate Search</h3>
+      <p>Easily search and filter candidates based on location and job roles.</p>
+    </div>
+    <div class="feature">
+      <img src="cost.svg" alt="Feature 2">
+      <h3>Time and Cost Savings</h3>
+      <p>Save time and reduce hiring costs with our efficient recruitment solution.</p>
+    </div>
+    <div class="feature">
+      <img src="hiring process.svg" alt="Feature 3">
+      <h3>Streamlined Hiring Process</h3>
+      <p>Effortlessly manage and track applicants throughout the hiring process.</p>
+    </div>
+  </section>
+
+  <section id="benefits">
+    <div class="two">
+        <h2>Why Choose Recruitment Solution ?</h2>
+    </div>
+    
+    <ul>
+      <li>Access to a large pool of talented candidates</li>
+      <li>Improved collaboration between hiring managers and HR professionals</li>
+      <li>Automated screening and ranking of candidates</li>
+      <li>Enhanced candidate engagement through seamless communication</li>
+      <li>Efficient tracking and management of job postings</li>
+    </ul>
+  </section>    
+    
+    <section id="contact">
+        <div class="contact-content">
+            <div class="three">
+                <h2>Contact Us</h2>
+            </div>
+          <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" onclick="messagesubmitted()">Send Message</button>
+          </form>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </section>
+
+  <footer>
+    <p>&copy; 2023 Recruitment Solution App. All rights reserved.</p>
+  </footer>
+</body>
+</html>

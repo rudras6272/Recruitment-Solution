@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Candidate Search</title>
+  <link rel="stylesheet" type="text/css" href="search.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar max-width">
+      <h1>Candidate Search.</h1>
+      <ul class="links">
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="home.html#contact">Contact us</a></li>
+        <li class="btn join"><a href="#" onclick="logout()">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="container">
+    
+    <div class="search-form">
+      <br>
+      <i class='fas fa-map-marker-alt'></i>
+      <input type="text" id="location" placeholder="Enter location">
+      <br>
+      <input type="text" id="job-role" placeholder="Enter job role">
+      
+      <button id="search-button">Search</button>
+    </div>
+    <div class="border"></div>
+    <div id="candidate-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
