@@ -486,4 +486,25 @@ body {
     animation: none;
     background-color: rgb(211, 20, 84);
   }
+  @media (max-width: 890px) {
+    .hero-content{
+      margin-left: 0;
+      padding-left: 0;
+      margin: 7rem auto;
+    }
+
+    .img-content {
+      margin: 100px 0px 0 0;
+      padding: 15px 0px 0 0;
+  }
+
+  #benefits li {
+    margin-left: 0;
+  }
+
+  nav ul{
+    margin: 0 70px 0 0;
+  }
+
+  }
   
