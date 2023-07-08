@@ -10,7 +10,7 @@ function messagesubmitted(){
 }
 
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('window.onload', function() {
   var flipCheckbox = document.getElementById('flip');
   var loginForm = document.querySelector('.login-form');
   var signupForm = document.querySelector('.signup-form');
